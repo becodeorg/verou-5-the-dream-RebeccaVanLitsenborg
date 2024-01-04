@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    border: solid 2px black;
+    margin: auto;
+    width: 30%;
+}
+
+label {
+    padding: 10px;
+    font-size: 22px;
+}
+
+#fromcurrency, #tocurrency {
+    margin: 10px;
+    padding: 10px;
+}
+
+#fromcurrency {
+    margin-bottom: 40px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+input#amount {
+    margin: 10px;
+    padding: 10px;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+button.swap {
+    padding-top: 10px;
+    background-color: rgb(178, 207, 237);
+}
+
+.result {
+    padding: 25px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
